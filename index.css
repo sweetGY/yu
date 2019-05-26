@@ -1,0 +1,242 @@
+/* 
+ * 只需要给自己设定的页面写样式即可 
+ *   已经设定好的PAGE?样式
+ *     每一个页面都是一屏幕
+ *     都设置了position:relative，这样每一页的子元素都相当于当前页面定位
+ *     溢出的内容都隐藏了
+ *     ......
+ */
+/* ==PAGE1== */
+
+.page1 {
+    background: url('image/01.jpg') no-repeat;
+    background-size: cover;
+   
+}
+.page1 img {
+    position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+    /* 所有测量出来的尺寸都要除以100变为REM */
+    width: 6rem;
+    height: 5rem;
+    left: .7rem;
+    bottom: 3rem;
+}
+
+
+/* ==PAGE2== */
+.page2 {
+    background: url('image/26.jpg') no-repeat;
+    background-size: cover;
+}
+
+.page2 img {
+    position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+    width: 3rem;
+    height: 4rem;
+    left: 1.5rem;
+    top: -1.2rem;
+}
+
+.page2 img:nth-of-type(2) {
+    width: 2.5rem;
+    height: 3.4rem;
+    right: .1rem;
+    top: .5rem;
+}
+
+.page2 img:nth-of-type(3) {
+    width:4.5rem;
+    height:5.5rem;
+    right: -3rem;
+    top:1rem;
+}
+
+.page2 img:nth-of-type(4) {
+    width: 3rem;
+    height: 4.5rem;
+    right: -1rem;
+    bottom: 1rem;
+}
+.page2 img:nth-of-type(5) {
+    width: 3.2rem;
+    height: 4.3rem;
+    left:-.3rem;
+    bottom: -.5rem;
+}
+.page2 img:nth-of-type(6) {
+    width: 2.6rem;
+    height: 3.88rem;
+    left:1.6rem;
+    bottom: -1rem;
+}
+.page2 img:nth-of-type(7) {
+    width: 3rem;
+    height: 3.88rem;
+    left:-1.6rem;
+    bottom: 3.2rem;
+}
+.page2 img:nth-of-type(8) {
+    width: 5.5rem;
+    height: 4.5rem;
+    left:-.8rem;
+    top:-.65rem;
+}
+.page2 img:nth-of-type(9) {
+    width: 3rem;
+    height: 4.5rem;
+    right:-.3rem;
+    bottom:-.65rem;
+}
+.page2 img:nth-of-type(10) {
+    width: 4.5rem;
+    height: 1.5rem;
+    right:1.95rem;
+    bottom:8rem;
+}
+.page2 img:nth-of-type(11) {
+    width: 4rem;
+    height: 5rem;
+    right:2rem;
+    bottom:3.8rem;
+}
+.page3{
+    background: url('image/26.jpg') no-repeat;
+    background-size: cover;  
+}
+.page3 img {
+    position: absolute;
+}
+.page3 img:nth-of-type(1) {
+    width: 5.5rem;
+    height: 4.5rem;
+    left:-.8rem;
+    top:-.65rem;
+}
+.page3 img:nth-of-type(2) {
+    width: 3rem;
+    height: 4.5rem;
+    right:-.3rem;
+    bottom:-.65rem;
+}
+.page3 img:nth-of-type(3) {
+    width: 4.2rem;
+    height: 2rem;
+    left:.5rem;
+    bottom:.2rem;
+}
+.page3 img:nth-of-type(4) {
+    width: 3rem;
+    height: 3rem;
+    right:.5rem;
+    top:.6rem;
+}
+.page3 img:nth-of-type(5) {
+    width: 5.5rem;
+    height: 7rem;
+    right:.3rem;
+    top:2rem;
+}
+.page3 img:nth-of-type(6) {
+    width: 5.5rem;
+    height: 7rem;
+    left:.3rem;
+    bottom:2rem;
+}
+.page3 img:nth-of-type(7) {
+    width: 5.5rem;
+    height: 7rem;
+    left:-.2rem;
+    top:1.8rem;
+}
+.page3 img:nth-of-type(8) {
+    width: 6rem;
+    height: 6rem;
+    right:.1rem ;
+    bottom:2rem;
+}
+.page3 img:nth-of-type(9) {
+    width: 2.8rem;
+    height: 1.9rem;
+    right:.1rem ;
+    top:1.5rem;
+}
+.page3 img:nth-of-type(10) {
+    width: 2rem;
+    height: 2.3rem;
+    left:.1rem ;
+    top:1.5rem;
+}
+.page3 img:nth-of-type(11) {
+    width: 2rem;
+    height: 2.8rem;
+    left:.1rem ;
+    bottom:1rem;
+}
+.page3 img:nth-of-type(12) {
+    width: 2rem;
+    height: 2.8rem;
+    right:.1rem ;
+    bottom:1rem;
+}
+.page3 img:nth-of-type(13) {
+    width: 6.5rem;
+    height: 5rem;
+    right:.5rem ;
+    bottom:4.3rem;
+}
+.page4 {
+    background: url('image/11.jpg') no-repeat;
+    background-size: cover;
+}
+
+.page4 img {
+    position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+    width: 3rem;
+    height: 3rem;
+    left: .3rem;
+    top: .2rem;
+}
+.page4 img:nth-of-type(2) {
+    width: 2rem;
+    height: 2.5rem;
+    left: .1rem;
+    top: 2.2rem;
+}
+.page4 img:nth-of-type(3) {
+    width: 1.8rem;
+    height: 2.5rem;
+    left: 2rem;
+    top: 4rem;
+}
+.page4 img:nth-of-type(4) {
+    width: 2.7rem;
+    height: 2.7rem;
+    left: 1.7rem;
+    bottom:4.4rem;
+}
+.page4 img:nth-of-type(5) {
+    width: 3.3rem;
+    height: 3.3rem;
+    left: 1.8rem;
+    bottom: .6rem;
+}
+.page4 img:nth-of-type(6) {
+    width: 3.3rem;
+    height: 3.3rem;
+    right: .1rem;
+    bottom:.6rem;
+}
+@media all and(max-width:768px){
+   .mainBox{
+       width:100%;
+   }
+}
